@@ -26,6 +26,6 @@ const newObj = {
   address: 'Unknown'
 };
 
-const updatedUsers2 = [...users2, newObj];
+const updatedUsers2 = [...users2, { ...newObj, id: 4 }];
 
 console.log(updatedUsers2);
