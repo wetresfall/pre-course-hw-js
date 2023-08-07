@@ -4,8 +4,6 @@ const numbers = [
   [111, 200, 333, 400, 555],
 ];
 
-const filteredNumbers = numbers.map(row => {
-  return row.filter(num => num % 2 === 0);
-});
+const filteredNumbers = numbers.map(row => row.filter(num => num % 2 === 0));
 
 console.log(filteredNumbers);
