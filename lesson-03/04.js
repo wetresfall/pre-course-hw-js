@@ -61,8 +61,8 @@ const users = [
   }
 ];
 
-users.forEach(user => {
+users.forEach((user) => {
   if (user.id % 2 === 0) {
-    console.log(user);
+      console.log(user);
   }
 });

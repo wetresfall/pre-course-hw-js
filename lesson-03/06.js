@@ -31,8 +31,8 @@ const users3 = [
   },
 ];
 
-users3.forEach(user => {
-  user.isMarried = true;
+const updatedUsers3 = users3.map(user => {
+  return { ...user, isMarried: true };
 });
 
-console.log(users3);
+console.log(updatedUsers3);
